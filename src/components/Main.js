@@ -7,6 +7,7 @@ import './Footer.css'
 import { animateScroll as scroll } from "react-scroll";
 
 function Main() {
+  //testing
 
     const toggleProjects = () => {
       scroll.scrollTo(1000);
