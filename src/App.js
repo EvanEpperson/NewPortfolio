@@ -13,7 +13,7 @@ import Footer from "../src/components/Footer";
 function App() {
   return (
     <>
-      <Router>
+      {/* <Router> */}
         <Navbar />
         <Main />
         <Cards />
@@ -29,7 +29,7 @@ function App() {
           <Route path="/products" exact component={Products} />
           <Route path="/sign-up" exact component={SignUp} />
         </Switch> */}
-      </Router>
+      {/* </Router> */}
     </>
   );
 }
