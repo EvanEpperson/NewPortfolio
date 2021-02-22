@@ -148,6 +148,15 @@
   width: 240px;
 }
 
+.social-icons-main {
+  padding-top: 30px;
+  width: 100% !important;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 240px;
+}
+
 .social-logo {
   color: #fff;
   justify-self: start;
@@ -188,4 +197,13 @@
 }
 
 @media screen and (max-width: 768px) {
+  .social-icons-main {
+  padding-top: 30px;
+  width: 100% !important;
+  display: flex;
+  flex-wrap: wrap;
+  /* justify-content: space-between; */
+  /* align-items: center; */
+  /* width: 240px; */
+}
 }

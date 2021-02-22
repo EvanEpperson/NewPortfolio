@@ -33,7 +33,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={toggleHome}>
+          <Link
+            to="/"
+            className="navbar-logo"
+            onClick={toggleHome}
+          >
             Evan Epperson
             <i className="fas fa-laptop-code" />
           </Link>
@@ -52,8 +56,10 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
                 download
+                target="_blank"
+                rel="noreferrer"
               >
-              Resume
+                Resume
               </a>
             </li>
             <li>
@@ -66,7 +72,11 @@ function Navbar() {
               </a>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">SIGN UP</Button>}
+          {button && (
+            <a href="mailto:eppersonevan@gmail.com">
+              <Button buttonStyle="btn--outline">Contact Me</Button>
+            </a>
+          )}
         </div>
       </nav>
     </>
